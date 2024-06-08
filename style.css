@@ -1,0 +1,2269 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    border-style: none;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    font-family: "EB Garamond", serif;
+}
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* header starts */
+/* navbar starts */
+.main-nav{
+    background-color: #E3F0EA;
+}
+.main-nav-content{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.nav-logo{
+    margin-left: 72px;
+    margin-right: 281.11px;
+}
+.navbar-navigation{
+    margin-right: 281.11px;
+    width: 531px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+    color: #151313;
+    font-size: 16px;
+}
+.nav-link i{
+    margin-left: 10px;
+    font-weight: 100;
+    color: #656665;
+}
+.nav-user-icon{
+    margin: 0px 20px;
+}
+.navbar-bar-icon{
+    display: none;
+}
+/* navbar ends */
+
+/* banner starts */
+.banner{
+    height: 740px;
+    background-image: url(./Rectangle\ 448.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.banner-content{
+    padding-left: 72px;
+}
+.banner-content h1{
+    padding-top: 150px;
+    padding-bottom: 20px;
+    width: 566px;
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 78px;
+    color: #ffffff;
+}
+.banner-content span{
+    font-family: "Brygada 1918", serif;
+}
+.banner-content p{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+}
+.banner-content button{
+    cursor: pointer;
+    height: 48px;
+    width: 259px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+/* banner ends */
+/* header ends */
+
+
+main{
+    background-image: linear-gradient(to bottom,#F1F1F1, #ffffff);
+}
+
+/* discover sec starts */
+.discover-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 72px;
+}
+.discover-sec h3{
+    margin-bottom: 8px;
+    padding-top: 140px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #151313;
+    font-weight: 400;
+}
+.discover-sec h2{
+    margin-bottom: 60px;
+    font-size: 44px;
+    font-weight: 400;
+    color: #151313;
+    letter-spacing: 2%;
+}
+.discover-sec-card-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.discover-sec-card{
+    display: flex;
+    flex-direction: column;
+}
+.discover-sec-card img{
+    margin-bottom: 21px;
+}
+.discover-sec-card a{
+    font-size: 18px;
+    color: #151313;
+}
+.discover-sec-card a span{
+    font-size: 14px;
+    margin-right: 12px;
+    margin-left: 5px;
+
+}
+.discover-sec-card a i{
+    transform: rotate(-30deg);
+}
+/* discover sec ends */
+
+
+
+
+/* trending sec starts */
+.trending-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 72px;
+}
+.trending-sec h3{
+    margin-bottom: 8px;
+    padding-top: 140px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #151313;
+    font-weight: 400;
+}
+.trending-sec h2{
+    margin-bottom: 60px;
+    font-size: 44px;
+    font-weight: 400;
+    color: #151313;
+    letter-spacing: 2%;
+}
+.trending-sec-card-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.trending-sec-card{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.trending-sec-card img{
+    margin-bottom: 21px;
+}
+.trending-sec-card-plus-icon{
+    top: 412px;
+    left: 185px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 48px;
+    border: 1px solid white;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    transform: none!important;
+}
+.trending-sec-card a{
+    font-size: 18px;
+    color: #151313;
+}
+.trending-sec-card a span{
+    font-size: 14px;
+    margin-right: 12px;
+    margin-left: 5px;
+
+}
+.trending-sec-card a i{
+    margin-left: 15px;
+    transform: rotate(-30deg);
+}
+.product-details-content{
+    height: 38px;
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+}
+.trending-sec-card-image-content{
+    margin-right: 10px;
+}
+.product-details-content img{
+    margin-right: 10px;
+}
+.product-details-content p{
+    transform: translateY(-8px);
+}
+.product-details-content-price{
+    font-size: 20px;
+    font-weight: 400;
+}
+/* trending sec ends */
+
+/* trademark sec starts */
+.trademark-sec{
+    margin-top: 146.98px;
+    margin-bottom: 133.46px;
+    position: relative;
+}
+.trademark-sec h2{
+    font-size: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #151313;
+}
+.trademark-sec h2 span{
+    color: #D8D8D8;
+}
+.trademark-sec img{
+    position: absolute;
+    left: 420px;
+    top: -10px;
+}
+/* trademark sec ends */
+
+/* collection sec starts */
+.collection-sec{
+    background-image: url(./BANNER\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.collection-sec-content{
+    padding: 0px 60px;
+    height: 650px;
+    color: white;
+}
+.collection-sec-content h2{
+    padding-top: 350px;
+    font-size: 44px;
+    width: 608px; 
+    line-height: 58px;     
+    font-weight: 400;
+}
+.collection-sec-content p{
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.collection-sec-content button{
+    cursor: pointer;
+    height: 48px;
+    width: 259px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+/* collection sec ends */
+
+
+/* following sec starts */
+.following-sec{
+    margin: 140px 0px;
+   display: flex;
+}
+.following-sec p{
+    color: #151313;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.following-sec h2{
+    font-size: 44px;
+    font-weight: 400;
+}
+.following-sec h2 span{
+    font-family: "Brygada 1918", serif;
+
+}
+.following-sec-text{
+    margin-right: 64px;
+}
+.following-sec-card-content{
+    width: 936px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.following-sec-card1{
+    position: relative;
+}
+.following-sec-card1-insta{
+    height: 48px;
+    width: 48px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 85px;
+    bottom: 20px;
+    position: absolute;
+    color: white;
+    font-size: 25px;
+}
+.following-sec-card1-insta i{
+    transform: translateY(2px);
+}
+.following-sec-card3{
+    position: relative;
+}
+.following-sec-card3-text-content{
+    bottom: 38px;
+    right: 9px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* following sec ends */
+
+/* footer sec starts */
+.footer-sec{
+    background-image: linear-gradient(to top,#E3F0EA,#ffffff);
+    padding: 0px 188px 81px 188px;
+
+}
+.footer-sec-content{
+    height: 444px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-social-link-content{
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+}
+.footer-para{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: "Brygada 1918", serif;
+    font-size: 20px;
+    color: #656665;
+}
+.footer-social-link{
+    height: 48px;
+    width: 48px;
+    color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #1513138e;
+    font-size: 22px;
+}
+.footer-social-link i{
+    transform: translateY(2px);
+}
+.footer-external-link-content-row{
+    width: 1064px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-external-link-content{
+    margin-top: 60px;
+    display: flex;
+}
+.footer-external-link{
+    display: flex;
+    flex-direction: column;
+}
+.footer-external-link h3{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.footer-external-link a{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #656665;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* footer sec ends */
+
+/* media quries */
+/* xs screen starts */
+@media (max-width:575.98px){
+    .wrapper{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    /* header starts */
+    /* navbar starts */
+    .main-nav{
+        background-color: #E3F0EA;
+        position: relative;
+        padding-bottom: 0px;
+    }
+    .main-nav-content{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-logo{
+        z-index: 2;
+        position: absolute;
+        margin-left: 0px;
+        margin-right: 0px;
+        left: 20px;
+        top: 17px;
+        height: 25px;
+    }
+    .navbar-navigation{
+        transition: 0.4s;
+        top: -100vh;
+        height: 100vh;
+        background-color: white;
+        position: absolute;
+        margin-right: 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .navbar-navigation-toggle{
+        transition: 0.4s;
+        top: 0vh;
+    }
+    .nav-link{
+        display: flex;
+        align-items: center;
+        color: #151313;
+    }
+    .nav-link i{
+        margin-left: 10px;
+        font-weight: 100;
+        color: #656665;
+    }
+    .nav-page-link{
+        margin: 20px 0px 15px 30px;
+    }
+    .nav-user-icon{
+        margin: 0px 30px;
+    }
+
+    .navbar-bar-icon{
+        z-index: 2;
+        top: 20px;
+        right: 30px;
+        position: absolute;
+        display: block;
+        font-size: 22px;
+    }
+    /* navbar ends */
+    
+    /* banner starts */
+    .banner{
+        height: auto;
+        background-image: url(./Rectangle\ 448.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    
+    }
+    .banner-content{
+        height: auto;
+        padding-left: 20px;
+        padding-bottom: 50px;
+    }
+    .banner-content h1{
+        padding-top: 50px;
+        padding-bottom: 20px;
+        width: auto;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 60px;
+        color: #ffffff;
+    }
+    .banner-content span{
+        font-family: "Brygada 1918", serif;
+    }
+    .banner-content p{
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .banner-content button{
+        cursor: pointer;
+        height: 48px;
+        width: 220px;
+        color: white;
+        background-color: transparent;
+        border: 1px solid white;
+    }
+    /* banner ends */
+    /* header ends */
+
+    /* discover sec starts */
+    .discover-sec{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 20px;
+    }
+    .discover-sec h3{
+        margin-bottom: 8px;
+        padding-top: 100px;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #151313;
+        font-weight: 400;
+    }
+    .discover-sec h2{
+        margin-bottom: 50px;
+        text-align: center;
+        font-size: 45px;
+        font-weight: 400;
+        color: #151313;
+        letter-spacing: 2%;
+    }
+    .discover-sec-card-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .discover-sec-card{
+        margin: 40px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .discover-sec-card img{
+        margin-bottom: 21px;
+    }
+    .discover-sec-card a{
+        font-size: 18px;
+    }
+    .discover-sec-card a span{
+        font-size: 14px;
+        margin-right: 12px;
+        margin-left: 5px;
+
+    }
+    .discover-sec-card a i{
+        transform: rotate(-30deg);
+    }
+    /* discover sec ends */
+
+
+
+    /* trending sec starts */
+    .trending-sec{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 20px;
+    }
+    .trending-sec h3{
+        margin-bottom: 8px;
+        padding-top: 100px;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #151313;
+        font-weight: 400;
+    }
+    .trending-sec h2{
+        text-align: center;
+        margin-bottom: 60px;
+        font-size: 44px;
+        font-weight: 400;
+        color: #151313;
+        letter-spacing: 2%;
+    }
+    .trending-sec-card-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .trending-sec-card{
+        margin: 30px 0px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .trending-sec-card img{
+        margin-bottom: 21px;
+    }
+    .trending-sec-card-plus-icon{
+        top: 412px;
+        left: 185px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 48px;
+        width: 48px;
+        border: 1px solid white;
+        border-radius: 50%;
+        color: white;
+        font-size: 20px;
+        font-weight: 100;
+        transform: none!important;
+    }
+    .trending-sec-card a{
+        font-size: 15px;
+        color: #151313;
+    }
+    .trending-sec-card a span{
+        font-size: 14px;
+        margin-right: 12px;
+        margin-left: 5px;
+
+    }
+    .trending-sec-card a i{
+        margin-left: 15px;
+        transform: rotate(-30deg);
+    }
+    .product-details-content{
+        height: 38px;
+        margin-top: 14px;
+        display: flex;
+        align-items: center;
+    }
+    .trending-sec-card-image-content{
+        margin-right: 0px;
+    }
+    .trending-sec-card-image{
+        width: 100%;
+    }
+    .product-details-content p{
+        transform: translateY(-8px);
+    }
+    .product-details-content-price{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    /* trending sec ends */
+
+
+    /* trademark sec starts */
+    .trademark-sec{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        position: relative;
+    }
+    .trademark-sec h2{
+        text-align: center;
+        font-size: 65px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #151313;
+    }
+    .trademark-sec h2 span{
+        color: #D8D8D8;
+    }
+    .trademark-sec img{
+        position: absolute;
+        left: 74%;
+        top: 0px;
+        height: 80px;
+    }
+    /* trademark sec ends */
+
+
+    /* collection sec starts */
+    .collection-sec{
+        background-image: url(./BANNER\ \(1\).png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+    }
+    .collection-sec-content{
+        padding: 0px 20px 80px 20px;
+        height: auto;
+        color: white;
+    }
+    .collection-sec-content h2{
+        padding-top: 100px;
+        font-size: 40px;
+        width: auto; 
+        line-height: 58px;     
+        font-weight: 400;
+    }
+    .collection-sec-content p{
+        text-transform: uppercase;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .collection-sec-content button{
+        cursor: pointer;
+        height: 48px;
+        width: 259px;
+        color: white;
+        background-color: transparent;
+        border: 1px solid white;
+    }
+    /* collection sec ends */
+
+
+
+    /* following sec starts */
+    .following-sec{
+        margin: 100px 0px;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+    .following-sec p{
+        color: #151313;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .following-sec h2{
+        font-size: 44px;
+        font-weight: 400;
+    }
+    .following-sec h2 span{
+        font-family: "Brygada 1918", serif;
+
+    }
+    .following-sec-text{
+        margin-right: 64px;
+    }
+    .following-sec-card-content{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+    .following-sec-card-content img{
+        margin: 20px 0px;
+        width: 100%;
+    }
+    .following-sec-card1{
+        position: relative;
+    }
+    .following-sec-card1-insta{
+        height: 48px;
+        width: 48px;
+        border: 1px solid white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 150px;
+        bottom: 70px;
+        position: absolute;
+        color: white;
+        font-size: 25px;
+    }
+    .following-sec-card1-insta i{
+        transform: translateY(2px);
+    }
+    .following-sec-card3{
+        position: relative;
+    }
+    .following-sec-card3-text-content{
+        bottom: 70px;
+        right: 15px;
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        border: 1px solid white;
+        border-radius: 50%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* following sec ends */
+
+
+
+    /* footer sec starts */
+    .footer-sec{
+        background-image: linear-gradient(to top,#E3F0EA,#ffffff);
+        padding: 0px 20px 81px 20px;
+
+    }
+    .footer-sec-content{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-social-link-content{
+        display: flex;
+        justify-content: space-between;
+        width: 97%;
+    }
+    .footer-para{
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-family: "Brygada 1918", serif;
+        font-size: 20px;
+        color: #656665;
+    }
+    .footer-social-link{
+        height: 48px;
+        width: 48px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #1513138e;
+        font-size: 22px;
+    }
+    .footer-social-link i{
+        transform: translateY(2px);
+    }
+    .footer-external-link-content-row{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .footer-external-link-content{
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-external-link{
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+    }
+    .footer-external-link h3{
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .footer-external-link a{
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 10px;
+        color: #656665;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /* footer sec ends */
+}
+/* xs screen ends */
+
+
+/* sm screen starts */
+@media (min-width: 576px) and (max-width: 767.98px){
+    .wrapper{
+        max-width: 540px;
+        margin: 0 auto;
+    }
+    /* header starts */
+    /* navbar starts */
+    .main-nav{
+        background-color: #E3F0EA;
+        position: relative;
+        padding-bottom: 0px;
+    }
+    .main-nav-content{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-logo{
+        z-index: 2;
+        position: absolute;
+        margin-left: 0px;
+        margin-right: 0px;
+        left: 20px;
+        top: 17px;
+        height: 25px;
+    }
+    .navbar-navigation{
+        transition: 0.4s;
+        top: -100vh;
+        height: 100vh;
+        background-color: white;
+        position: absolute;
+        margin-right: 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .navbar-navigation-toggle{
+        transition: 0.4s;
+        top: 0vh;
+    }
+    .nav-link{
+        display: flex;
+        align-items: center;
+        color: #151313;
+        font-size: 18px;
+    }
+    .nav-link i{
+        margin-left: 10px;
+        font-weight: 100;
+        color: #656665;
+    }
+    .nav-page-link{
+        margin: 20px 0px 15px 30px;
+    }
+    .nav-user-icon{
+        margin: 0px 30px;
+    }
+
+    .navbar-bar-icon{
+        z-index: 2;
+        top: 20px;
+        right: 30px;
+        position: absolute;
+        display: block;
+        font-size: 22px;
+    }
+    /* navbar ends */
+    
+    /* banner starts */
+    .banner{
+        height: auto;
+        background-image: url(./Rectangle\ 448.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    
+    }
+    .banner-content{
+        height: auto;
+        padding-left: 20px;
+        padding-bottom: 50px;
+    }
+    .banner-content h1{
+        padding-top: 50px;
+        padding-bottom: 20px;
+        width: auto;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 60px;
+        color: #ffffff;
+    }
+    .banner-content span{
+        font-family: "Brygada 1918", serif;
+    }
+    .banner-content p{
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .banner-content button{
+        cursor: pointer;
+        height: 48px;
+        width: 220px;
+        color: white;
+        background-color: transparent;
+        border: 1px solid white;
+    }
+    /* banner ends */
+    /* header ends */
+
+
+    /* discover sec starts */
+    .discover-sec{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 20px;
+    }
+    .discover-sec h3{
+        margin-bottom: 8px;
+        padding-top: 140px;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #151313;
+        font-weight: 400;
+    }
+    .discover-sec h2{
+        margin-bottom: 50px;
+        text-align: center;
+        font-size: 45px;
+        font-weight: 400;
+        color: #151313;
+        letter-spacing: 2%;
+    }
+    .discover-sec-card-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .discover-sec-card{
+        margin: 40px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .discover-sec-card img{
+        margin-bottom: 21px;
+    }
+    .discover-sec-card a{
+        font-size: 18px;
+    }
+    .discover-sec-card a span{
+        font-size: 14px;
+        margin-right: 12px;
+        margin-left: 5px;
+
+    }
+    .discover-sec-card a i{
+        transform: rotate(-30deg);
+    }
+    /* discover sec ends */
+
+
+
+    /* trending sec starts */
+    .trending-sec{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 20px;
+    }
+    .trending-sec h3{
+        margin-bottom: 8px;
+        padding-top: 100px;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #151313;
+        font-weight: 400;
+    }
+    .trending-sec h2{
+        text-align: center;
+        margin-bottom: 60px;
+        font-size: 44px;
+        font-weight: 400;
+        color: #151313;
+        letter-spacing: 2%;
+    }
+    .trending-sec-card-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .trending-sec-card{
+        margin: 30px 0px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .trending-sec-card img{
+        margin-bottom: 21px;
+    }
+    .trending-sec-card-plus-icon{
+        top: 412px;
+        left: 185px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 48px;
+        width: 48px;
+        border: 1px solid white;
+        border-radius: 50%;
+        color: white;
+        font-size: 20px;
+        font-weight: 100;
+        transform: none!important;
+    }
+    .trending-sec-card a{
+        font-size: 26px;
+        color: #151313;
+    }
+    .trending-sec-card a span{
+        font-size: 20px;
+        margin-right: 12px;
+        margin-left: 5px;
+
+    }
+    .trending-sec-card a i{
+        margin-left: 15px;
+        transform: rotate(-30deg);
+    }
+    .product-details-content{
+        height: 38px;
+        margin-top: 14px;
+        display: flex;
+        align-items: center;
+    }
+    .trending-sec-card-image-content{
+        margin-right: 0px;
+    }
+    .trending-sec-card-image{
+        width: 100%;
+    }
+    .product-details-content p{
+        transform: translateY(-8px);
+    }
+    .product-details-content-price{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    /* trending sec ends */
+
+
+    /* trademark sec starts */
+    .trademark-sec{
+        margin-top: 146.98px;
+        margin-bottom: 133.46px;
+        position: relative;
+    }
+    .trademark-sec h2{
+        text-align: center;
+        font-size: 80px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #151313;
+    }
+    .trademark-sec h2 span{
+        color: #D8D8D8;
+    }
+    .trademark-sec img{
+        position: absolute;
+        left: 70%;
+        top: -30px;
+        height: 140px;
+    }
+    /* trademark sec ends */
+
+
+    /* collection sec starts */
+    .collection-sec{
+        background-image: url(./BANNER\ \(1\).png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+    }
+    .collection-sec-content{
+        padding: 0px 20px 80px 20px;
+        height: auto;
+        color: white;
+    }
+    .collection-sec-content h2{
+        padding-top: 100px;
+        font-size: 40px;
+        width: auto; 
+        line-height: 58px;     
+        font-weight: 400;
+    }
+    .collection-sec-content p{
+        text-transform: uppercase;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .collection-sec-content button{
+        cursor: pointer;
+        height: 48px;
+        width: 259px;
+        color: white;
+        background-color: transparent;
+        border: 1px solid white;
+    }
+    /* collection sec ends */
+
+
+    /* following sec starts */
+    .following-sec{
+        margin: 100px 0px;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+    .following-sec p{
+        color: #151313;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .following-sec h2{
+        font-size: 44px;
+        font-weight: 400;
+    }
+    .following-sec h2 span{
+        font-family: "Brygada 1918", serif;
+
+    }
+    .following-sec-text{
+        margin-right: 64px;
+    }
+    .following-sec-card-content{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+    .following-sec-card-content img{
+        margin: 20px 0px;
+        width: 100%;
+    }
+    .following-sec-card1{
+        position: relative;
+    }
+    .following-sec-card1-insta{
+        height: 48px;
+        width: 48px;
+        border: 1px solid white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 240px;
+        bottom: 100px;
+        position: absolute;
+        color: white;
+        font-size: 25px;
+    }
+    .following-sec-card1-insta i{
+        transform: translateY(0px);
+    }
+    .following-sec-card3{
+        position: relative;
+    }
+    .following-sec-card3-text-content{
+        bottom: 70px;
+        right: 15px;
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        border: 1px solid white;
+        border-radius: 50%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* following sec ends */
+
+
+     /* footer sec starts */
+     .footer-sec{
+        background-image: linear-gradient(to top,#E3F0EA,#ffffff);
+        padding: 0px 20px 81px 20px;
+
+    }
+    .footer-sec-content{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-social-link-content{
+        display: flex;
+        justify-content: space-between;
+        width: 320px;
+    }
+    .footer-para{
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-family: "Brygada 1918", serif;
+        font-size: 20px;
+        color: #656665;
+    }
+    .footer-social-link{
+        height: 48px;
+        width: 48px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #1513138e;
+        font-size: 22px;
+    }
+    .footer-social-link i{
+        transform: translateY(2px);
+    }
+    .footer-external-link-content-row{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .footer-external-link-content{
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-external-link{
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+    }
+    .footer-external-link h3{
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .footer-external-link a{
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 10px;
+        color: #656665;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /* footer sec ends */
+}
+/* sm screen ends */
+
+
+/* md screen starts */
+@media (min-width: 768px) and (max-width: 991.98px){
+    .wrapper{
+        max-width: 720px;
+        margin: 0 auto;
+    }
+    /* header starts */
+    /* navbar starts */
+    .main-nav{
+        background-color: #E3F0EA;
+        position: relative;
+        padding-bottom: 0px;
+    }
+    .main-nav-content{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-logo{
+        z-index: 2;
+        position: absolute;
+        margin-left: 0px;
+        margin-right: 0px;
+        left: 20px;
+        top: 17px;
+        height: 25px;
+    }
+    .navbar-navigation{
+        transition: 0.4s;
+        top: -100vh;
+        height: 100vh;
+        background-color: white;
+        position: absolute;
+        margin-right: 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .navbar-navigation-toggle{
+        transition: 0.4s;
+        top: 0vh;
+    }
+    .nav-link{
+        display: flex;
+        align-items: center;
+        color: #151313;
+        font-size: 23px;
+    }
+    .nav-link i{
+        margin-left: 10px;
+        font-weight: 100;
+        color: #656665;
+    }
+    .nav-page-link{
+        margin: 20px 0px 15px 30px;
+    }
+    .nav-user-icon{
+        margin: 0px 80px;
+    }
+
+    .navbar-bar-icon{
+        z-index: 2;
+        top: 20px;
+        right: 30px;
+        position: absolute;
+        display: block;
+        font-size: 22px;
+    }
+    /* navbar ends */
+    
+    /* banner starts */
+    .banner{
+        height: auto;
+        background-image: url(./Rectangle\ 448.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    
+    }
+    .banner-content{
+        height: auto;
+        padding-left: 20px;
+        padding-bottom: 100px;
+        padding-top: 50px;
+    }
+    .banner-content h1{
+        padding-top: 50px;
+        padding-bottom: 20px;
+        width: auto;
+        font-size: 60px;
+        font-weight: 500;
+        line-height: 78px;
+        color: #ffffff;
+    }
+    .banner-content span{
+        font-family: "Brygada 1918", serif;
+    }
+    .banner-content p{
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .banner-content button{
+        cursor: pointer;
+        height: 48px;
+        width: 220px;
+        color: white;
+        background-color: transparent;
+        border: 1px solid white;
+    }
+    /* banner ends */
+    /* header ends */
+
+
+    /* discover sec starts */
+    .discover-sec{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 20px;
+    }
+    .discover-sec h3{
+        margin-bottom: 8px;
+        padding-top: 140px;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #151313;
+        font-weight: 400;
+    }
+    .discover-sec h2{
+        margin-bottom: 50px;
+        text-align: center;
+        font-size: 45px;
+        font-weight: 400;
+        color: #151313;
+        letter-spacing: 2%;
+    }
+    .discover-sec-card-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .discover-sec-card{
+        margin: 40px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .discover-sec-card img{
+        margin-bottom: 21px;
+    }
+    .discover-sec-card a{
+        font-size: 25px;
+    }
+    .discover-sec-card a span{
+        font-size: 20px;
+        margin-right: 12px;
+        margin-left: 5px;
+
+    }
+    .discover-sec-card a i{
+        transform: rotate(-30deg);
+    }
+    /* discover sec ends */
+
+
+ 
+    /* trending sec starts */
+    .trending-sec{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 20px;
+    }
+    .trending-sec h3{
+        margin-bottom: 8px;
+        padding-top: 100px;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #151313;
+        font-weight: 400;
+    }
+    .trending-sec h2{
+        text-align: center;
+        margin-bottom: 60px;
+        font-size: 44px;
+        font-weight: 400;
+        color: #151313;
+        letter-spacing: 2%;
+    }
+    .trending-sec-card-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .trending-sec-card{
+        margin: 30px 0px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .trending-sec-card img{
+        margin-bottom: 21px;
+    }
+    .trending-sec-card-plus-icon{
+        top: 412px;
+        left: 185px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 48px;
+        width: 48px;
+        border: 1px solid white;
+        border-radius: 50%;
+        color: white;
+        font-size: 20px;
+        font-weight: 100;
+        transform: none!important;
+    }
+    .trending-sec-card a{
+        font-size: 26px;
+        color: #151313;
+    }
+    .trending-sec-card a span{
+        font-size: 20px;
+        margin-right: 12px;
+        margin-left: 5px;
+
+    }
+    .trending-sec-card a i{
+        margin-left: 15px;
+        transform: rotate(-30deg);
+    }
+    .product-details-content{
+        height: 38px;
+        margin-top: 14px;
+        display: flex;
+        align-items: center;
+    }
+    .trending-sec-card-image-content{
+        margin-right: 0px;
+    }
+    .trending-sec-card-image{
+        width: 100%;
+    }
+    .product-details-content p{
+        transform: translateY(-8px);
+        font-size: 20px;
+    }
+    .product-details-content-price{
+        font-size: 26px;
+        font-weight: 400;
+    }
+    /* trending sec ends */
+
+
+
+    /* trademark sec starts */
+    .trademark-sec{
+        margin-top: 146.98px;
+        margin-bottom: 133.46px;
+        position: relative;
+    }
+    .trademark-sec h2{
+        text-align: center;
+        font-size: 130px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #151313;
+    }
+    .trademark-sec h2 span{
+        color: #D8D8D8;
+    }
+    .trademark-sec img{
+        position: absolute;
+        left: 75%;
+        top: -10px;
+        height: 160px;
+    }
+    /* trademark sec ends */
+
+
+    /* collection sec starts */
+    .collection-sec{
+        background-image: url(./BANNER\ \(1\).png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+    }
+    .collection-sec-content{
+        padding: 0px 20px 80px 20px;
+        height: auto;
+        color: white;
+    }
+    .collection-sec-content h2{
+        padding-top: 100px;
+        font-size: 40px;
+        width: auto; 
+        line-height: 58px;     
+        font-weight: 400;
+    }
+    .collection-sec-content p{
+        text-transform: uppercase;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .collection-sec-content button{
+        cursor: pointer;
+        height: 48px;
+        width: 259px;
+        color: white;
+        background-color: transparent;
+        border: 1px solid white;
+    }
+    /* collection sec ends */
+
+
+    /* following sec starts */
+    .following-sec{
+        margin: 100px 0px;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+    .following-sec p{
+        color: #151313;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .following-sec h2{
+        font-size: 44px;
+        font-weight: 400;
+    }
+    .following-sec h2 span{
+        font-family: "Brygada 1918", serif;
+
+    }
+    .following-sec-text{
+        margin-right: 64px;
+    }
+    .following-sec-card-content{
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+    .following-sec-card{
+        width: 47%;
+    }
+   
+    .following-sec-card-content img{
+        margin: 20px 0px;
+        width: 47%;
+    }
+    .following-sec-card img{
+        width: 100%;
+    }
+    .following-sec-card1{
+        position: relative;
+    }
+    .following-sec-card1-insta{
+        height: 48px;
+        width: 48px;
+        border: 1px solid white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 150px;
+        bottom: 70px;
+        position: absolute;
+        color: white;
+        font-size: 25px;
+    }
+    .following-sec-card1-insta i{
+        transform: translateY(2px);
+    }
+    .following-sec-card3{
+        position: relative;
+    }
+    .following-sec-card3-text-content{
+        bottom: 70px;
+        right: 15px;
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        border: 1px solid white;
+        border-radius: 50%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* following sec ends */
+
+
+
+     /* footer sec starts */
+     .footer-sec{
+        background-image: linear-gradient(to top,#E3F0EA,#ffffff);
+        padding: 0px 20px 81px 20px;
+
+    }
+    .footer-sec-content{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-social-link-content{
+        display: flex;
+        justify-content: space-between;
+        width: 320px;
+    }
+    .footer-para{
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-family: "Brygada 1918", serif;
+        font-size: 20px;
+        color: #656665;
+    }
+    .footer-social-link{
+        height: 48px;
+        width: 48px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #1513138e;
+        font-size: 22px;
+    }
+    .footer-social-link i{
+        transform: translateY(2px);
+    }
+    .footer-external-link-content-row{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .footer-external-link-content{
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-external-link{
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+    }
+    .footer-external-link h3{
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        font-size: 34px;
+        font-weight: 400;
+    }
+    .footer-external-link a{
+        font-size: 25px;
+        font-weight: 500;
+        margin-bottom: 10px;
+        color: #656665;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /* footer sec ends */
+}
+/* md screen ends */
+
+
+/* lg screen starts */
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .wrapper{
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    /* header starts */
+    /* navbar starts */
+    .main-nav{
+        background-color: #E3F0EA;
+    }
+    .main-nav-content{
+        height: 60px;
+        display: flex;
+        align-items: center;
+    }
+    .nav-logo{
+        margin-left: 20px;
+        margin-right: 110px;
+    }
+    .navbar-navigation{
+        margin-right: 100px;
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-link{
+        display: flex;
+        align-items: center;
+        color: #151313;
+        font-size: 16px;
+    }
+    .nav-link i{
+        margin-left: 10px;
+        font-weight: 100;
+        color: #656665;
+    }
+    .nav-user-icon{
+        margin: 0px 20px;
+    }
+    .navbar-bar-icon{
+        display: none;
+    }
+    /* navbar ends */
+    
+    /* banner starts */
+    .banner{
+        height: 680px;
+        background-image: url(./Rectangle\ 448.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    
+    }
+    .banner-content{
+        padding-left: 20px;
+    }
+    .banner-content h1{
+        padding-top: 100px;
+        padding-bottom: 20px;
+        width: 566px;
+        font-size: 55px;
+        font-weight: 500;
+        line-height: 78px;
+        color: #ffffff;
+    }
+    .banner-content span{
+        font-family: "Brygada 1918", serif;
+    }
+    .banner-content p{
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .banner-content button{
+        cursor: pointer;
+        height: 48px;
+        width: 259px;
+        color: white;
+        background-color: transparent;
+        border: 1px solid white;
+    }
+    /* banner ends */
+    /* header ends */
+
+
+    /* discover sec starts */
+    .discover-sec{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 20px;
+    }
+    .discover-sec h3{
+        margin-bottom: 8px;
+        padding-top: 140px;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #151313;
+        font-weight: 400;
+    }
+    .discover-sec h2{
+        margin-bottom: 60px;
+        font-size: 44px;
+        font-weight: 400;
+        color: #151313;
+        letter-spacing: 2%;
+    }
+    .discover-sec-card-content{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .discover-sec-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .discover-sec-card img{
+        margin-bottom: 21px;
+        height: 330px;
+    }
+    .discover-sec-card a{
+        font-size: 18px;
+    }
+    .discover-sec-card a span{
+        font-size: 14px;
+        margin-right: 12px;
+        margin-left: 5px;
+
+    }
+    .discover-sec-card a i{
+        transform: rotate(-30deg);
+    }
+    /* discover sec ends */
+
+
+
+    /* trending sec starts */
+    .trending-sec{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 20px;
+    }
+    .trending-sec h3{
+        margin-bottom: 8px;
+        padding-top: 140px;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #151313;
+        font-weight: 400;
+    }
+    .trending-sec h2{
+        margin-bottom: 60px;
+        font-size: 44px;
+        font-weight: 400;
+        color: #151313;
+        letter-spacing: 2%;
+    }
+    .trending-sec-card-content{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .trending-sec-card{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .trending-sec-card-image{
+        height: 360px;
+        margin-bottom: 21px;
+    }
+    .trending-sec-card img{
+        margin-bottom: 0px;
+    }
+    .trending-sec-card-plus-icon{
+        top: 412px;
+        left: 185px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 48px;
+        width: 48px;
+        border: 1px solid white;
+        border-radius: 50%;
+        color: white;
+        font-size: 20px;
+        font-weight: 100;
+        transform: none!important;
+    }
+    .trending-sec-card a{
+        font-size: 15px;
+        color: #151313;
+    }
+    .trending-sec-card a span{
+        font-size: 14px;
+        margin-right: 12px;
+        margin-left: 5px;
+
+    }
+    .trending-sec-card a i{
+        margin-left: 15px;
+        transform: rotate(-30deg);
+    }
+    .product-details-content{
+        height: 38px;
+        margin-top: 16px;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+    }
+    .trending-sec-card-image-content{
+        margin-right: 10px;
+    }
+    .product-details-content img{
+        margin-right: 10px;
+    }
+    .product-details-content p{
+        transform: translateY(-8px);
+    }
+    .product-details-content-price{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    /* trending sec ends */
+
+
+    /* trademark sec starts */
+    .trademark-sec{
+        margin-top: 146.98px;
+        margin-bottom: 133.46px;
+        position: relative;
+    }
+    .trademark-sec h2{
+        font-size: 90px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #151313;
+    }
+    .trademark-sec h2 span{
+        color: #D8D8D8;
+    }
+    .trademark-sec img{
+        position: absolute;
+        left: 31.5%;
+        top: 0px;
+        height: 120px;
+    }
+    /* trademark sec ends */
+
+
+    /* collection sec starts */
+    .collection-sec{
+        background-image: url(./BANNER\ \(1\).png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+    }
+    .collection-sec-content{
+        padding: 0px 20px;
+        height: 650px;
+        color: white;
+    }
+    .collection-sec-content h2{
+        padding-top: 350px;
+        font-size: 44px;
+        width: 608px; 
+        line-height: 58px;     
+        font-weight: 400;
+    }
+    .collection-sec-content p{
+        text-transform: uppercase;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .collection-sec-content button{
+        cursor: pointer;
+        height: 48px;
+        width: 259px;
+        color: white;
+        background-color: transparent;
+        border: 1px solid white;
+    }
+    /* collection sec ends */
+
+
+
+    /* following sec starts */
+    .following-sec{
+        margin: 100px 0px;
+        display: flex;
+        padding: 0px 20px;
+    }
+    .following-sec p{
+        color: #151313;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .following-sec h2{
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .following-sec h2 span{
+        font-family: "Brygada 1918", serif;
+
+    }
+    .following-sec-text{
+        margin-right: 30px;
+    }
+    .following-sec-card-content{
+        width: 936px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .following-sec-card-content img{
+        width: 160px;
+    }
+    .following-sec-card1{
+        position: relative;
+    }
+    .following-sec-card1-insta{
+        height: 48px;
+        width: 48px;
+        border: 1px solid white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 85px;
+        bottom: 20px;
+        position: absolute;
+        color: white;
+        font-size: 25px;
+    }
+    .following-sec-card1-insta i{
+        transform: translateY(2px);
+    }
+    .following-sec-card3{
+        position: relative;
+    }
+    .following-sec-card3-text-content{
+        bottom: 38px;
+        right: 9px;
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        border: 1px solid white;
+        border-radius: 50%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* following sec ends */
+
+
+
+    /* footer sec starts */
+    .footer-sec{
+        background-image: linear-gradient(to top,#E3F0EA,#ffffff);
+        padding: 0px 188px 81px 188px;
+
+    }
+    .footer-sec-content{
+        height: 444px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-social-link-content{
+        display: flex;
+        justify-content: space-between;
+        width: 320px;
+    }
+    .footer-para{
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-family: "Brygada 1918", serif;
+        font-size: 20px;
+        color: #656665;
+    }
+    .footer-social-link{
+        height: 48px;
+        width: 48px;
+        color: black;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #1513138e;
+        font-size: 22px;
+    }
+    .footer-social-link i{
+        transform: translateY(2px);
+    }
+    .footer-external-link-content-row{
+        width: 940px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-external-link-content{
+        margin-top: 60px;
+        display: flex;
+    }
+    .footer-external-link{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-external-link h3{
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .footer-external-link a{
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 10px;
+        color: #656665;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /* footer sec ends */
+}
+/* lg screen ends */
